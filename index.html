@@ -1,0 +1,22 @@
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./mian.css">
+    </head>
+    <body>
+        <h1>簡単腕立て回数計算</h1>
+        <p>40分クオリティ</p>
+        <div class="info">
+            <P>体重:<span id="bodyWeight"></span>kg</P>
+            <button onclick="down('bodyWeightNumber')">-5kg</button>
+            <button onclick="up('bodyWeightNumber')">+5kg</button>
+        </div>
+        <div class="info">
+            <P>ベンチ:<span id="maxWeight"></span>kg</P>
+            <button onclick="down('maxWeightNumber')">-5kg</button>
+            <button onclick="up('maxWeightNumber')">+5kg</button>
+        </div>
+        <p>腕立て伏せの目安回数:<span id="pushUp"></span>回×4セット</p>
+        <script src="./main.js"></script>
+    </body>
+</html>
