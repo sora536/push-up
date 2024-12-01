@@ -35,7 +35,7 @@ function up(item){
 
 
 function reset(){
-    pushUpNumber = Math.ceil(40*(100*maxWeightNumber/(65*bodyWeightNumber)-1));
+    pushUpNumber = Math.ceil(40*(90*maxWeightNumber/(65*bodyWeightNumber)-1));
     pushUp.textContent =pushUpNumber;
 
 }
